@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Palavras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="wordInput" placeholder="Digite uma palavra">
+        <button onclick="addWord()">Adicionar Palavra</button>
+        <button onclick="removeWord()">Remover Palavra</button>
+    </div>
+    <ul id="wordList"></ul>
+    <div class="container">
+        <button onclick="sortWords('asc')">Ordenar Crescente</button>
+        <button onclick="sortWords('desc')">Ordenar Decrescente</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
